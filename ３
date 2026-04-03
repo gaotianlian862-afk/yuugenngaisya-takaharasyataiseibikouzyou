@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>高原車体整備工場 | 熊本市西区の車検・板金塗装・修理ならお任せください</title>
+    <meta name="description" content="熊本市西区花園の高原車体整備工場。親子経営ならではの丁寧な接客と確かな技術。車検から板金塗装まで一貫対応。大切な愛車のキズ・へこみ、故障などお気軽にご相談ください。地域密着で迅速対応いたします。">
+    <meta name="keywords" content="高原車体整備工場, 熊本市, 西区, 花園, 車検, 板金, 塗装, 修理, 自動車整備">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://takahara-body.com/"> <!-- 仮のURL -->
+    <meta property="og:title" content="高原車体整備工場 | 熊本市西区の車検・板金塗装・修理">
+    <meta property="og:description" content="熊本市西区花園の高原車体整備工場。親子経営ならではの丁寧な接客と確かな技術。車検から板金塗装まで一貫対応。">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1200">
+
+    <!-- Structured Data (JSON-LD) for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "高原車体整備工場",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1200",
+      "@id": "https://takahara-body.com/",
+      "url": "https://takahara-body.com/",
+      "telephone": "096-324-6604",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "花園1丁目6-23",
+        "addressLocality": "熊本市西区",
+        "addressRegion": "熊本県",
+        "postalCode": "860-0072",
+        "addressCountry": "JP"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.8123,
+        "longitude": 130.6945
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://maps.google.com/?q=熊本市西区花園1丁目6-23"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #1e3a5f;
+            --secondary-color: #e67e22;
+            --accent-color: #f39c12;
+            --text-color: #333;
+            --light-bg: #f4f7f9;
+            --white: #ffffff;
+            --success: #27ae60;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--white);
+        }
+
+        /* Header & Navigation */
+        header {
+            background: var(--white);
+            color: var(--primary-color);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--primary-color);
+        }
+
+        .nav-contact {
+            text-align: right;
+        }
+
+        .nav-contact a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(30, 58, 95, 0.85), rgba(30, 58, 95, 0.85)), url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1200') center/cover;
+            color: var(--white);
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            font-weight: 900;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 35px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.9;
+        }
+
+        /* CTA Buttons */
+        .cta-btn {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--white);
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+        }
+
+        .cta-btn:hover {
+            background: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(230, 126, 34, 0.4);
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 90px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background: var(--secondary-color);
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--light-bg);
+            padding: 45px 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: var(--white);
+            border-color: #eee;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .feature-card i {
+            font-size: 3rem;
+            color: var(--secondary-color);
+            margin-bottom: 25px;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+
+        /* Services List */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .service-item {
+            background: var(--white);
+            border: 1px solid #eee;
+            padding: 25px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            transition: border-color 0.3s;
+        }
+
+        .service-item:hover {
+            border-color: var(--secondary-color);
+        }
+
+        .service-item i {
+            color: var(--success);
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+
+        /* Access Section */
+        .access-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .map-wrapper iframe {
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        /* Contact Form */
+        .contact-wrapper {
+            background: var(--light-bg);
+            padding: 50px 40px;
+            border-radius: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 18px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background: var(--secondary-color);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 1.6rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        /* Sticky Call Button for Mobile */
+        .sticky-call {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: var(--secondary-color);
+            text-align: center;
+            padding: 18px;
+            z-index: 999;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            display: none;
+        }
+
+        .sticky-call a {
+            color: var(--white);
+            font-size: 1.3rem;
+            text-decoration: none;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .access-container { grid-template-columns: 1fr; }
+            .nav-container { flex-direction: column; gap: 10px; }
+            .section { padding: 60px 20px; }
+            .sticky-call { display: block; }
+            body { padding-bottom: 60px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">高原車体整備工場</div>
+        <div class="nav-contact">
+            <span style="font-size: 0.8rem; display: block; color: #666;">お電話でのご相談（平日 9:00-18:00）</span>
+            <a href="tel:0963246604"><i class="fas fa-phone-alt"></i> 096-324-6604</a>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>熊本市西区で愛される技術。<br>車検から板金塗装まで一貫対応。</h1>
+    <p>親子経営ならではの「顔が見える」丁寧な接客。大切な愛車のキズ・へこみ、故障など、どんな小さなことでもプロの技術で解決します。</p>
+    <a href="#contact" class="cta-btn">無料相談・お見積もりはこちら</a>
+</section>
+
+<div class="achievement-bar" style="background: var(--light-bg); padding: 30px 20px; text-align: center; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+    <div class="stat-item">熊本市西区 <b>地域密着</b></div>
+    <div class="stat-item">車検・板金 <b>一貫対応</b></div>
+    <div class="stat-item">親子経営 <b>丁寧な接客</b></div>
+</div>
+
+<div class="section">
+    <div class="section-title">
+        <h2>高原車体整備工場が選ばれる3つの理由</h2>
+    </div>
+    <div class="features-grid">
+        <div class="feature-card">
+            <i class="fas fa-users"></i>
+            <h3>親子経営の温かい接客</h3>
+            <p>大手にはない、アットホームで丁寧な対応を心がけています。専門用語を使わず、分かりやすく説明いたします。</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-car-crash"></i>
+            <h3>板金・塗装のプロ技術</h3>
+            <p>車体整備の専門知識を活かし、事故修理やキズ・へこみを元通りに。仕上がりの美しさに自信があります。</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-handshake"></i>
+            <h3>地域密着のスピード対応</h3>
+            <p>熊本市西区花園を拠点に、地元の皆様のカーライフをサポート。急なトラブルにも迅速に駆けつけます。</p>
+        </div>
+    </div>
+</div>
+
+<section class="section" style="background-color: #f9f9f9;">
+    <div class="section-title">
+        <h2>サービス内容</h2>
+    </div>
+    <div class="services-grid">
+        <div class="service-item"><i class="fas fa-check-circle"></i> 安心車検・法定点検</div>
+        <div class="service-item"><i class="fas fa-check-circle"></i> 板金・キズ・へこみ修理</div>
+        <div class="service-item"><i class="fas fa-check-circle"></i> 高品質塗装・仕上げ</div>
+        <div class="service-item"><i class="fas fa-check-circle"></i> 一般整備・故障修理</div>
+        <div class="service-item"><i class="fas fa-check-circle"></i> オイル・タイヤ交換</div>
+        <div class="service-item"><i class="fas fa-check-circle"></i> 事故対応・保険修理相談</div>
+    </div>
+</section>
+
+<div class="section">
+    <div class="section-title">
+        <h2>アクセス</h2>
+    </div>
+    <div class="access-container">
+        <div class="access-info">
+            <h3 style="margin-bottom: 20px; color: var(--primary-color);">高原車体整備工場</h3>
+            <p style="margin-bottom: 10px;"><i class="fas fa-map-marker-alt" style="color: var(--secondary-color); width: 20px;"></i> 〒860-0072 熊本県熊本市西区花園1丁目6-23</p>
+            <p style="margin-bottom: 10px;"><i class="fas fa-phone-alt" style="color: var(--secondary-color); width: 20px;"></i> 096-324-6604</p>
+            <p style="margin-bottom: 25px;"><i class="fas fa-clock" style="color: var(--secondary-color); width: 20px;"></i> 営業時間：9:00 〜 18:00（定休日：日曜・祝日）</p>
+            <a href="https://maps.google.com/?q=熊本市西区花園1丁目6-23" target="_blank" class="cta-btn" style="padding: 12px 25px; font-size: 0.9rem; background: var(--primary-color);">Googleマップで開く</a>
+        </div>
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps?q=熊本市西区花園1丁目6-23&output=embed" width="100%" height="350" style="border:0;" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="contact">
+    <div class="section-title">
+        <h2>お問い合わせ・無料見積もり</h2>
+        <p>「修理代はいくら？」「車検の時期が近い」など、<br>どんな小さなことでもお気軽にご相談ください。</p>
+    </div>
+    <div class="contact-wrapper">
+        <form>
+            <div class="form-group">
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" placeholder="例：熊本 太郎" required>
+            </div>
+            <div class="form-group">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="tel">電話番号（任意）</label>
+                <input type="tel" id="tel" name="tel" placeholder="090-0000-0000">
+            </div>
+            <div class="form-group">
+                <label for="message">ご相談内容</label>
+                <textarea id="message" name="message" rows="6" placeholder="車検の見積もり希望、キズの修理相談など" required></textarea>
+            </div>
+            <button type="submit">この内容で送信する</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-logo">高原車体整備工場</div>
+    <p style="margin-bottom: 10px;">熊本県熊本市西区花園1丁目6-23</p>
+    <p style="font-size: 0.9rem; opacity: 0.7;">&copy; 2024 Takahara Body Repair Shop. All Rights Reserved.</p>
+</footer>
+
+<div class="sticky-call">
+    <a href="tel:0963246604">
+        <i class="fas fa-phone-alt"></i> 今すぐ電話で相談する（無料）
+    </a>
+</div>
+
+</body>
+</html>
